@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Merriweather", "Inter", serif;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.header-area {
+  background-image: url("../images/Banner Image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner-section {
+  margin: auto;
+}
+
+.banner-description {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.banner-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  text-transform: capitalize;
+}
