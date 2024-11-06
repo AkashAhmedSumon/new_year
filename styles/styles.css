@@ -231,6 +231,70 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
+
+/* Holidays Section Styles */
+.holidays-section {
+  margin: 100px 0px;
+}
+.holiday-article {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+}
+.holiday-subtitle {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+.holiday-print {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.holiday-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  max-width: 1050px;
+}
+
+.holiday-img {
+  background-image: url("../images/Rectangle\ 2.png"),
+    url("../images/Rectangle 1.png");
+  background-position: bottom center, center right;
+  background-repeat: no-repeat;
+  background-size: full 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount-pic {
+  width: 250px;
+  position: relative;
+  right: 120%;
+}
+
 .main-area {
   padding: 100px 0px;
 }
