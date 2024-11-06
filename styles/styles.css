@@ -18,6 +18,8 @@ body {
   height: 60vh;
   display: flex;
   align-items: center;
+  border-radius: 16px;
+  margin-top: 50px;
 }
 
 .banner-section {
@@ -59,7 +61,6 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   margin: 20px 0px;
-  
 }
 .offer-categories {
   color: #070211;
@@ -70,62 +71,165 @@ body {
   text-transform: uppercase;
 }
 
-.figure-pic{
+.figure-pic {
   max-width: 800px;
   margin: 30px auto 100px auto;
 }
 
 /* Party Section Styles */
 
-.party-section{
+.party-section {
   background-image: url("../images/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   margin: 100px 0px;
   align-items: center;
-  
-
 }
-.picture-figure{
+.picture-figure {
   padding-right: 100px;
 }
-.party-article{
+.party-article {
   margin-bottom: 100px;
   max-width: 700px;
   padding: 100px 140px 140px 120px;
 }
-.party-title{
-  color: #FFF;
-font-family: Merriweather;
-font-size: 64px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
-margin: 0;
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  margin: 0;
 }
-.party-description{
-  color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.midnight-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 0;
+  background-color: #ffb800;
+  color: #666;
+}
 
+/* Time Section Styles */
+
+.time-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 0px;
+  margin: 0px auto 100px auto;
+  text-align: center;
 }
-.midnight-btn{
-  color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-padding: 10px 20px;
-border: 0;
-background-color: #ffB800;
-color: #666;
+
+.time-btn {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  gap: 10px;
+  border: 0;
+}
+.color-section {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.time-description {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.upcoming-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin: 100px 0px;
+}
+
+.upcoming-subtitle {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.upcoming-content {
+  max-width: 400px;
+}
+.upcoming-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.upcoming-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.upcoming-pic {
+  border-radius: 450px;
+  border: 15px solid #f00;
+  -webkit-border-radius: 450px;
+  -moz-border-radius: 450px;
+  -ms-border-radius: 450px;
+  -o-border-radius: 450px;
+  width: 463px;
+  height: 463px;
+  padding: 50px;
+}
+
+.year-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 32px;
 }
 .main-area {
   padding: 100px 0px;
