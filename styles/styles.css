@@ -43,8 +43,39 @@ body {
 
 /* Main Section Styles */
 
-.main-area {
+.offer-title {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-family: Inter;
+  font-weight: 700;
+  margin: 0px;
+  text-transform: uppercase;
+}
+.offer-article {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 20px 0px;
   
+}
+.offer-categories {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+.figure-pic{
+  max-width: 800px;
+  margin: 30px auto 100px auto;
+}
+
+.main-area {
   padding: 100px 0px;
 }
 
